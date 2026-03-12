@@ -29,13 +29,6 @@ const HeroSection = () => {
     }
   }, [controls, inView]);
 
-  // const handleExploreClick = () => {
-  //   if (user) {
-  //     navigate("/courses");
-  //   } else {
-  //     navigate("/login");
-  //   }
-  // };
    const searchHandler = (e) => {
     e.preventDefault();
     if(searchQuery.trim() !== ""){
@@ -151,12 +144,11 @@ const HeroSection = () => {
 
         <motion.div variants={item}>
           <Button
-            // onClick={handleExploreClick}
-            onClick={()=> navigate(`/course/search?query`)}
-            className="bg-white text-blue-600 hover:bg-gray-200 px-6 py-3 rounded-full font-semibold shadow-md"
-          >
-            Explore Courses
-          </Button>
+  onClick={() => navigate("/course/search?query=")}
+  className="bg-white text-blue-600 hover:bg-gray-200 px-6 py-3 rounded-full font-semibold shadow-md"
+>
+  Explore Courses
+</Button>
         </motion.div>
       </motion.div>
     </section>
