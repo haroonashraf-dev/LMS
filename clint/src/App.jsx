@@ -23,7 +23,7 @@ import Unauthorized from "./pages/Unauthorized";
 import CourseDetail from "./pages/student/CourseDetail";
 import Testimonials from "./pages/Testimonials";
 import Footer from "./pages/Footer";
-import CourseProgress from "./pages/student/courseProgress";
+import CourseProgress from "./pages/student/CourseProgress";
 import RoleProtectedRoute from "./components/RoleProtectedRoute";
 import SearchPage from "./pages/student/SearchPage";
 import {
