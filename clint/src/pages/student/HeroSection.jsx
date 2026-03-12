@@ -21,7 +21,7 @@ const HeroSection = () => {
   const controls = useAnimation();
   const [ref, inView] = useInView();
   const navigate = useNavigate();
-  const { user } = useSelector((state) => state.auth);
+  // const { user } = useSelector((state) => state.auth);
 
   useEffect(() => {
     if (inView) {
