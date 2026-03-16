@@ -42,6 +42,7 @@ app.use("/api/v1/progress", courseProgressRoute);
 //   });
 // });
 
-app.listen(PORT, () => {
-  console.log(`Server listen at port ${PORT}`);
-});
+// app.listen(PORT, () => {
+//   console.log(`Server listen at port ${PORT}`);
+// });
+export default app;
